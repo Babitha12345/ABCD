@@ -114,3 +114,43 @@ nav ul .search-icon .icon span{
   color: #222222;
   font-size:18px;
 }
+.button
+{
+margin-bottom: 10px;
+}
+.footcard
+{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.body
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.footer
+{
+  padding: 40px 0;
+  background-color: rgb(0, 0, 0);
+}
+.icons
+{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.icons a{
+  display: inline-block;
+  padding-top: 30px;
+
+  margin: 0px;
+  width: 200px;
+}
+.list
+{
+  text-align: center;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  margin: 30px;
+  font-style: normal;
+}
