@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Footer</title>
+
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo">Book Review</li>
+        <div class="items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </div>
+        <li class="search-icons">
+          <input type="search" placeholder="Search">
+          <label class="icon">
+            <span class="fas fa-search"></span>
+
+          </label>
+          
+
+        </li>
+      </ul>
+    </nav>
+  </body>
+  
+      <div class="content">
+        <div class="info">
+          <h2>It's  time to meet next favourite book <br><span>Be Creative!</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a href="#" class="info-btn">More Info</a>
+        </div>
+      </div>
+      <body>
+        <div class="container">
+          <div class="row">
+            <div class="faq-wrapper">
+              <div class="header">
+                <h1>FAQs</h1>
+              </div>
+              <div class="faq-inner">
+                <div class="faq-item">
+                  <h3>
+                    How do I get back to site ?
+                    <span class="faq-plus">&plus;</span>
+                  </h3>
+                  <div class="faq-body"> 
+                    To return the Site simply click on login on navigation bar.
+                  </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                  <h3>
+                    How can I contact for support  ?
+                    <span class="faq-plus">&plus;</span>
+                  </h3>
+                  <div class="faq-body">
+                    If unable to find answers then reach out to support team.
+                  </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                  <h3>
+                    What is an FAQ page ?
+                    <span class="faq-plus">&plus;</span>
+                  </h3>
+                  <div class="faq-body">
+                    It conatins discussions on the difficulties faced.
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          $(".faq-plus").on('click',function(){
+            $(this).parent().parent().find('.faq-body').slideToggle();
+          });
+        </script>
+      </body>
+      
+      <body>
+        <footer class="footer">
+          <div class="inner-footer">
+            <div class="social-links">
+              <ul>
+                <li class="social-links"><a href="#"><i class="fab fa-facebook"></i></a>
+                <li class="social-links"><a href="#"><i class="fab fa-twitter-square"></i></a>
+                <li class="social-links"><a href="#"><i class="fab fa-instagram"></i></a>
+              </ul>
+            </div>
+            <div class="quick-link">
+              <ul>
+                <li class="quick-item"><a href="#">Home</a></li>
+                <li class="quick-item"><a href="#">Services</a></li>
+                <li class="quick-item"><a href="#">About Us</a></li>
+                <li class="quick-item"><a href="#">Contact Us></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </footer>
+      </body>
+
+
+
+      
+    </body>
+</html>

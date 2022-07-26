@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LoginForm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo">Book Review</li>
+        <div class="items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </div>
+        <li class="search-icons">
+          <input type="search" placeholder="Search">
+          <label class="icon">
+            <span class="fas fa-search"></span>
+
+          </label>
+          
+
+        </li>
+      </ul>
+    </nav>
+  </body>
+  <div class = "bkg">
+    <div class = "box">
+      <div style="text-align: center;">
+      <form onsubmit="return validate()"> 
+        <br><h1 style="text-align: center; color: rgb(255, 255, 255);">
+          LOGIN
+        </h1><br><br>
+        <div id="error"></div>
+        <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
+          <span class="input-group-text" id="MailId">Mail Id</span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Mail Id">
+        </div><br>
+        <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
+          <span class="input-group-text" id="Password">Password</span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password">
+        </div>
+        <br><br><div class="container signin" style="text-align: center; color: rgb(255, 255, 255);">
+          <p>Don't have an account? <a href="registrationform.html">Create one</a>.</p>
+        </div><br>
+        <br><button class="btn btn-success btn-lg" value="Submit">Login</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
